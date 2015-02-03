@@ -1,8 +1,25 @@
 
 body {
-	background-color: #DFDFD6;
+	background-color: rgb(181, 216, 181);
+	text-align: center;
 }
 
 h3 {
 	color: #0066FF;
+}
+ul {
+	list-style-type: none;
+}
+title {
+	text-align: center;
+}
+h1 {
+	text-align: center;
+}
+* {
+	font-family: Tahoma;
+}
+
+li {
+	color: rgb(205, 163, 74);
 }
