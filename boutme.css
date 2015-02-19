@@ -24,6 +24,9 @@ h1 {
 li {
 	color: rgb(205, 163, 74);
 }
+img {
+	border: 1px solid black;
+}
 
 /* unvisited link */
 a:link {
