@@ -3,7 +3,7 @@ body {
 	background-color: white;
 	text-align: left;
     font-family: 'Trebuchet MS';
-    
+   
 }
 
 h1 {
@@ -26,31 +26,47 @@ h3{
 	font-family: 'Orbitron', sans-serif;
 }
 
-#header {
+header {
     background-color:black;
     color:white;
     text-align:center;
     padding:5px; 
 }
 
-#nav {
+.nav {
     line-height:30px;
     background-color:#eeeeee;
     height:600px;
     width:160px;
     float:left;
-    padding:5px;
-    padding-top: 20px;
+    padding:20px 5px 20px 5px ;
+    
     font-family: 'Trebuchet MS';
 }
 
-#education {
+.skillitem {
+    display: block;
+}
+
+.mainbody {
+    float: right;
+    
+}
+
+main {
+    width: 850px;
+}
+
+.clear {
+    clear: both;
+}
+.education {
     width:500px;
     float:left;
     padding:0px;
  }
 
-#contact {
+.contact {
 	background-color:black;
     color:white;
     clear:both;
@@ -58,7 +74,7 @@ h3{
     padding:5px;
 }
 
-#back {
+.backtoaboutme {
     float: right;
     text-align: right;
     width:1500px;
